@@ -14,7 +14,7 @@ COPY src ./src
 RUN mvn clean package
 
 # Используем официальный образ OpenJDK 17 JRE для запуска приложения
-FROM openjdk:17-jre-slim
+FROM openjdk:17-jdk-slim
 
 # Копируем собранный jar-файл в контейнер
 COPY --from=build /app/target/ThymeleafProject-0.0.1-SNAPSHOT.jar app.jar
