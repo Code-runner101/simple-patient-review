@@ -1,0 +1,77 @@
+        h1, h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .content {
+            margin: 0 auto; /* Выравнивание по горизонтали по центру */
+            width: 50%;
+            text-align: center; /* Выравнивание содержимого по центру */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="time"],
+        input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px; /* Скругление углов */
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .content {
+            width: 50%; /* Уменьшите это значение, чтобы сжать форму */
+            margin: 0 auto; /* Выравнивание по горизонтали по центру */
+        }
+        .login-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .username {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #f8f9fa; /* Цвет фона */
+            padding: 5px 10px; /* Отступы внутри элемента */
+            border-radius: 5px; /* Скругление углов */
+        }
