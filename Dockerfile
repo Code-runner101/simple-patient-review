@@ -22,8 +22,5 @@ COPY --from=build /app/target/ThymeleafProject-0.0.1-SNAPSHOT.jar app.jar
 # Копируем application.properties в контейнер
 COPY src/main/resources/application.properties application.properties
 
-# Открываем порт 8080
-EXPOSE 8080
-
 # Запускаем приложение
 CMD ["java", "-jar", "app.jar"]
