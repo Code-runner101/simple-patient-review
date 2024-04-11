@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class LoginController {
 
     @GetMapping("/")
-    public String login() {
+    public String getMainRoot() {
         return "login";
     }
     
